@@ -15,6 +15,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <repositories>
+    <repository>
+      <id>nextwork-nextwork-packages</id>  <!-- Match this with settings.xml -->
+      <url>https://nextwork-494713367427.d.codeartifact.ap-northeast-1.amazonaws.com/maven/nextwork-packages/</url>
+      <releases><enabled>true</enabled></releases>
+      <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+  </repositories>
+  
   <build>
     <finalName>network-web-project</finalName>
   </build>
